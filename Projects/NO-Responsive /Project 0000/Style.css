@@ -1,0 +1,52 @@
+body {
+  background-color: lightblue;
+}
+
+h3 {
+  color: red;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+p {
+  color: green;
+}
+
+table {
+  width: 1400px;
+  color: white;
+  background-color: #5004fd;
+}
+
+tr {
+  height: 50px;
+}
+
+#TR-1 {
+  height: 50px;
+  background-color: #8655fe;
+}
+
+#F {
+  background-color: #9727eb;
+}
+
+#S {
+  background: #5709fd;
+}
+
+#TE {
+  background-color: #812df5;
+}
+
+#W {
+  background-color: #7f1bed;
+}
+
+#TH {
+  background-color: #8e23ef;
+}
+
+button{
+    background-color: lightgreen;
+}

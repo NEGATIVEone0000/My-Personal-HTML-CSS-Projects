@@ -1,0 +1,45 @@
+body{
+    background-color: lightblue;
+}
+
+h3{
+    color: #28A745;
+}
+
+p{
+    color: red;
+}
+
+caption{
+    font-size: 5ch;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+td{
+    width: 150px;
+    text-align: center;
+}
+
+#TR-1{
+    background-color: #28A745;
+}
+
+#TR-2{
+    background-color: white;
+}
+
+#TR-3{
+    background-color: #17A2B8;
+}
+
+#TR-4{
+    background-color: white;
+}
+
+#TR-5{
+    background-color: #17A2B8;
+}
+
+button{
+    background-color: lightgreen
+}
