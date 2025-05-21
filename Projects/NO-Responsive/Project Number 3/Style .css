@@ -1,0 +1,149 @@
+/* Weitte By NEGATIVE1 */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    border-bottom: 1px solid;
+    position: relative;
+}
+
+header > button,.B{
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    padding: 5px 20px ;
+    margin: 10px;
+}
+
+#Image1{
+    margin: auto;
+    background-image: url(Image1.jpg);
+    background-repeat: no-repeat;
+    width: 78%;
+    height: 800px;
+    position: relative;
+    border: 1px solid;
+}
+
+#Par{
+    width: 500px;
+    height: 60px;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+
+#S{
+    background-color: black;
+    padding: 2px 15px;
+    opacity: 0.7;
+}
+
+#h3{
+    margin-left: 200px;
+    border-bottom:  1px solid rgb(224, 220, 220);
+    padding: 0px 0px 20px 0px;
+    width: 79%;
+}
+
+#section2,#section3{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 81%;
+    height: 230px;
+    position: relative;
+}
+
+#hi{
+    background-color: black;
+    position: absolute;
+}
+
+#lorem{
+    font-size: 15px;
+    margin: auto;
+    width: 79%;
+    height: 80px;
+}
+
+#section4{
+    display: flex;
+    margin: auto;
+    width: 79%;
+    height: 500px;
+}
+
+.person{
+    width: 25%;
+    height: 100%;
+}
+
+.person > button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+
+#section5{
+    margin: auto;
+    width: 79%;
+    height: 300px;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+}
+
+#send{
+    width: 150px;
+    color : white;
+    background-color: black;
+    padding: 10px;
+    border: none;
+}
+
+#send:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+.contect:hover{
+    background-color: lightgray;
+    border: 1px solid;
+}
+
+#section6{
+    background-image: url(map.jpg);
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 79%;
+    height: 846px;
+
+}
+
+footer{
+    height: 98px;
+    color: white;
+    text-align: center;
+    align-content: center;
+    background-color: black;
+}
+
+#NE{
+    color: red;
+}
+
+.AB{
+    margin-left: 1250px;
+}
