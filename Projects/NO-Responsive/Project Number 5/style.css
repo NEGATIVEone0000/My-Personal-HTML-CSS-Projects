@@ -1,0 +1,326 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #F1F1F1;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+}
+
+header div{
+    padding: 8px 18px;
+    color: white;
+    font-size: 18px;
+}
+
+#nave{
+    display: flex;
+    height: 108px;
+    border-bottom: 1px solid rgb(236, 230, 230);
+    width: 300px;
+}
+
+#nave div img{
+    margin: 23px 15px;
+    border-radius: 50px;
+}
+
+#nave span p{
+    margin: 23px 0px 23px 27px ;
+    font-size: 15px;
+}
+
+nav{
+    position: fixed;
+    height: 100%;
+    background-color: white;
+}
+
+#nave span p a{
+    margin: 1px -4px;
+    display: inline-block;
+    padding: 8px 16px;
+    color: black;
+
+}
+
+#nave span p a:hover{
+    background-color: gray;    
+}
+
+#SideBar{
+    margin-top: 42px ;
+    width: 300px;
+}
+
+#Dash{
+    margin-top: 5px;
+    width: 100%;
+}
+
+.dash{
+    width: 100%;
+    font-weight: lighter;
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 16px;
+    color: black;
+}
+
+.dash:hover{
+    background-color: lightgray;
+}
+
+main{
+    display: flex;
+    background-color: #F1F1F1;
+    
+}
+
+#section1{
+    margin: 43px 0px 0px 15px;
+    /* border: 1px solid; */
+    /* height: 500px; */
+    width: 82.2%;
+}
+
+#section1 > h3{
+    font-weight: lighter;
+    margin-top: 28px;
+}
+
+#MA{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.box{
+    margin-top: 10px;
+    width: 24.3%;
+    height: 140px;
+    flex-wrap: wrap;
+    
+}
+
+.box:nth-child(1){
+    background-color: #F44336;
+}
+
+.box:nth-child(2){
+    background-color: #2196F3;
+}
+
+
+.box:nth-child(3){
+    background-color: #009688;
+}
+
+
+.box:nth-child(4){
+    background-color: #FF9800;
+}
+
+#section2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    
+}
+
+#map{
+    width: 33%;
+}
+
+#map > p{
+    font-size: 20px;
+}
+
+#map > img{
+    margin-top: 10px;
+}
+
+#fe{
+    width: 66%;
+}
+
+#section3{
+    margin-top: 40px;
+    width: 100%;
+}
+
+#section4 > h3{
+    margin: 50px 0px 10px;
+    font-weight: lighter;
+}
+
+#section3 >p{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#section4{
+    margin-top: 10px;
+}
+
+.skill{
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    background-color: #9e9e9e ;
+}
+
+.skill > div{
+    display: flex;
+    width: 25%;
+    height: 40px;
+    background-color: #4CAF50;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.skill1{
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    background-color: #9e9e9e ;
+}
+
+.skill1 > div{
+    display: flex;
+    width: 50%;
+    height: 40px;
+    background-color: #FF9800;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+
+.skill2{
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    background-color: #9e9e9e ;
+}
+
+.skill2 > div{
+    display: flex;
+    width: 75%;
+    height: 40px;
+    background-color: #F44336;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#co{
+    width: 100%;
+    border-collapse:collapse;
+}
+
+#co td{
+    padding: 8px 8px;
+}
+
+.A{
+    background: white;
+}
+
+.E{
+    background-color: #F1F1F1;
+}
+
+.A:hover{
+    background-color: rgb(189, 185, 185);
+}
+
+.E:hover{
+    background-color: rgb(189, 185, 185);
+}
+
+button{
+    border: none;
+}
+
+button > a{
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: white;
+    background: #4e4b4b;
+}
+
+#section5{
+    margin-top: 5px;
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+    
+}
+
+#MM{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(202, 194, 194);
+}
+
+#section6{
+    margin-top: 10px;
+    width: 100%;
+    clear: both;
+}
+
+#end{
+    margin: 43px 0px 0px 300px;
+    width: 83.5.%;
+    background-color: #616161;
+}
+
+#endd{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.QS{
+    margin-top: 30px;
+    width: 31%;
+    height: 230px;
+    color: white;
+}
+
+.QS > p{
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+footer{
+    margin: 30px 0px 0px 300px;
+    height: 100px;
+}
+
+footer > h3{
+    padding-left: 20px;
+    font-size: 23px;
+    font-weight: lighter;
+}
+
+footer > p{
+    padding-left: 20px;
+}
+
+
+e
