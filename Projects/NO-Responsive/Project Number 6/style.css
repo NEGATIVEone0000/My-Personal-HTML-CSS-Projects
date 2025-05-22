@@ -1,0 +1,310 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+header{
+    background-color: white;
+    width: 99.8%;
+}
+
+header a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: black;
+    margin: 0px -4px 0px -4px;
+}
+
+#Logo{
+    background-color: orangered;
+    color: white;
+}
+
+#Logo > p{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#book{
+    float: right;
+    clear: both;
+    background-color: #f1f1f1;
+    padding: 10px 16px;
+}
+
+
+
+#book:hover{
+    background-color: gray;
+}
+
+header a:hover{
+    background-color: gray;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+main{
+    margin: auto;
+    width: 81%;
+}
+
+#section1{
+    height: 800px;
+}
+
+#section1 >img{
+    position: relative;
+}
+
+#form{
+    margin-left: 10px;
+    position: absolute;
+    bottom: 370px;
+    border: 1px solid white;
+    width: 39%;
+    height: 310px;
+    background-color: white;
+}
+
+#Hotel{
+    width: 100%;
+    height: 65px;
+    background-color: orangered;
+    padding: 15px 16px;
+    color: white;
+}
+
+#Hotel > h1{
+    display: inline;
+}
+
+.IN{
+    margin: 16px 7px; 
+}
+
+#sub > a{
+    background-color: grey;
+    text-align: center;
+    display: inline-block;
+    margin: 5px 15px ;
+    text-decoration: none;
+    padding: 8px 16px;
+    color: white;
+}
+
+.Room{
+    width: 350px;
+    height: 40px;
+}
+
+.Room1{
+    width: 240px;
+    height: 40px;
+}
+
+.section3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    /* border: 1px solid; */
+}
+
+.section3 > div{
+    /* border: 1px solid; */
+    width: 32.5%;
+    height: 570px;
+}
+
+.Info > a{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    background-color: black;
+    padding: 10px 0px;
+    color: white;
+    text-decoration: none;
+}
+
+.Info > h2{
+    font-weight: lighter;
+}
+
+.section4{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#Info2{
+    width: 32.5%;
+    /* height: 500px; */
+    
+}
+
+#Info22{
+    width: 66%;
+    /* height: 500px; */
+}
+
+#Info22 > img{
+    filter: grayscale(70%);
+}
+
+#Info2 > h6{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.section5{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section5 > div{
+    width: 17%;
+    color: orangered;
+}
+
+.section5 > div > p{
+    display: inline-block;
+    font-size: 18px;
+}
+
+.section6{
+    width: 100%;
+    height: 100px;
+    background-color: orangered;
+    border-left: 6px solid gray;
+    align-content: center;
+}
+
+.section6 > div{
+    margin-left: 10px;
+}
+
+.section6 > div > i{
+    display: inline-block;
+    margin-right: 10px;
+    background-color: orange;
+    padding: 5px 13px;
+}
+
+.section6 > div > p{
+    display: inline-block;
+}
+
+.section7{
+    width: 100%;
+    height: 100px;
+    align-content: center;
+}
+
+.section7 > h1{
+    font-weight: lighter;
+    font-size: 28px;
+}
+
+.section8{
+    display: flex;
+    width: 100%;
+}
+
+.section8 > #pic1{
+    width: 50%;
+    margin-right: 15px;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: repeat(2,360px);
+    gap: 15px;
+}
+
+.section9{
+    /* border: 1px solid; */
+    margin: auto;
+    width: 84%;
+    padding: 35px 14px 20px;
+    color: white;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.section9:hover{
+    opacity: 1;
+}
+
+.section9 > input{
+    width: 99%;
+    height: 50px;
+}
+
+#SUB{
+    width: 8%;
+    background-color: orangered;
+    color: white;
+    font-size: 16px;
+}
+
+#SUB:hover{
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.section10{
+    /* border: 1px solid; */
+    margin: auto;
+    width: 80%;
+}
+
+.section10 > h1{
+    font-weight: lighter;
+}
+
+.section10 > input{
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+#SEND{
+    display: inline-block;
+    width: 11%;
+    background-color: black;
+    color: white;
+    padding: 16px 18px;
+    font-size: 16px;
+}
+
+#SEND:hover{
+    background-color: #f1f1f1;
+    color: black;
+    border: 1px solid;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    height: 230px;
+    color: white;
+}
+
+.sub:hover{
+    color: black;
+    background-color: rgb(197, 190, 190);
+}
+
